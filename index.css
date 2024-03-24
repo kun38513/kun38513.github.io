@@ -1,0 +1,126 @@
+* {
+    font-family: "Noto Serif TC", serif;
+}
+
+h1 {
+    font-family: "Cookie", cursive;
+}
+
+h2 {
+    font-family: "Cookie", cursive;
+}
+
+@media screen and (max-width: 1400px) {
+    p {
+        font-size: 14px;
+    }
+
+    .maincontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .mcontainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .sidee {
+        width: 15%;
+
+        padding: 1em;
+        padding-top: 2em;
+    }
+
+    .mainn {
+        width: 85%;
+        padding: 1em;
+        border-left: 1px solid #B8B8DC;
+    }
+
+    .sidee img {
+        width: 100%;
+        border-radius: 50%;
+
+    }
+
+    .edu {
+        width: 33%;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .edu img {
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 12px;
+    }
+
+    .maincontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .mcontainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .sidee {
+        width: 100%;
+        text-align: center;
+        padding: 1em;
+        padding-top: 2em;
+        border-bottom: 1px solid #B8B8DC;
+    }
+
+    .mainn {
+        width: 100%;
+        padding: 1em;
+
+    }
+
+    .sidee img {
+        width: 50%;
+        border-radius: 50%;
+
+    }
+
+    .edu {
+        width: 100%;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .edu img {
+        width: 75%;
+    }
+
+}
+
+
+
+a:hover {
+    background-color: #B8B8DC;
+    color: #189;
+}
+
+nav li:hover {
+    border-radius: 5px;
+    background-color: #E6E6F2;
+}

@@ -1,0 +1,110 @@
+* {
+    font-family: "Noto Serif TC", serif;
+}
+
+h1 {
+    font-family: "Cookie", cursive;
+}
+
+h2 {
+    font-family: "Cookie", cursive;
+}
+
+h3 {
+    font-family: "Cookie", cursive;
+}
+
+h4 {
+    font-family: "Cookie", cursive;
+}
+
+h5 {
+    font-family: "Cookie", cursive;
+}
+
+h6 {
+    font-family: "Cookie", cursive;
+}
+
+@media screen and (max-width: 1400px) {
+    p {
+        font-size: 14px;
+    }
+
+    .maincontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .mcontainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .sidee {
+        width: 15%;
+
+        padding: 1em;
+
+    }
+
+    .mainn {
+        width: 85%;
+        padding: 1em;
+        border-left: 1px solid #B8B8DC;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 12px;
+    }
+
+    .maincontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .mcontainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .sidee {
+        width: 100%;
+
+        padding: 1em;
+        padding-top: 2em;
+        border-bottom: 1px solid #B8B8DC;
+    }
+
+    .mainn {
+        width: 100%;
+        padding: 1em;
+
+    }
+
+}
+
+nav li:hover {
+    border-radius: 5px;
+    background-color: #E6E6F2;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    color: #189;
+}
